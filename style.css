@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/IMG_4845.jpeg") no-repeat center;
+    background: url("images/background.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -269,7 +269,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    content: "what i learning";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -297,7 +297,7 @@ section .title::after{
 .services .serv-content .card:hover i{
     color: #fff;
 }
-.services .serv-content .card .text{
+.services .serv-content .card .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -364,19 +364,19 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 50%;
 }
 .skills-content .right .css::before{
-    width: 60%;
+    width: 30%;
 }
 .skills-content .right .js::before{
-    width: 80%;
+    width: 20%;
 }
 .skills-content .right .php::before{
     width: 50%;
 }
 .skills-content .right .mysql::before{
-    width: 70%;
+    width: 60%;
 }
 
 /* teams section styling */
